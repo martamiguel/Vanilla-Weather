@@ -8,54 +8,62 @@
   </head>
   <body>
     <div class="weather-app">
-    <header>
-      <form class="search-form" id="search-form">
-        <input class="search-bar" type="search" placeholder="Enter a city..." required />
-        <input class="search-button" type="submit" value="search" />
-      </form>
-    <main>
-      <div class="weather-app-data">
-        <h1 class="current-city">Paris</h1>
-        <p class="current-details">
-         <span id="current-day">Saturday</span> 
-         <span id="current-hour">12</span>:
-         <span id="current-minute">21</span>, 
-         <span id="current-weather">mist</span>
-          <br />
-          Humidity: 
-          <strong>
-            <span id="current-humidity">94</span>%,
-          </strong>
-          Wind: 
-          <strong>
-            <span id="current-wind">3.09</span>km/h
-          </strong>
-        </p>
-      </div>
-      <span id="current-icon">🌤️</span> <span id="current-temperature">20</span>°C
-    </main>
-    <footer>
-      This project was coded by
-      <a
-        href="https://github.com/martamiguel"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Marta Miguel</a
-      >, is
-      <a
-        href="https://github.com/martamiguel/Vanilla-Weather"
-        target="_blank"
-        rel="noopener noreferrer"
-        >open-sourced on GitHub</a
-      >
-      and
-      <a
-        href="https://mm-weather.netlify.app/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >hosted on Netlify</a
-      >
-    </footer>
-</div>
+      <header>
+        <form class="search-form" id="search-form">
+          <input
+            class="search-bar"
+            type="search"
+            placeholder="Enter a city.."
+            required
+          />
+          <input class="search-button" type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="current-city">Paris</h1>
+            <p class="current-details">
+              <span id="current-day">Saturday</span>
+              <span id="current-hour">12</span>:
+              <span id="current-minute">21</span>,
+              <span id="current-weather">mist</span>
+              <br />
+              Humidity:
+              <strong> <span id="current-humidity">94</span>%, </strong>
+              Wind:
+              <strong> <span id="current-wind">3.09</span>km/h </strong>
+            </p>
+          </div>
+          <div class="temperature-container">
+            <div class="current-icon">🌤️</div>
+            <div class="current-temperature">20</div>
+            <div class="current-unit">°C</div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a
+          href="https://github.com/martamiguel"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Marta Miguel</a
+        >, is
+        <a
+          href="https://github.com/martamiguel/Vanilla-Weather"
+          target="_blank"
+          rel="noopener noreferrer"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a
+          href="https://mm-weather.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
