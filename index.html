@@ -15,14 +15,20 @@
             type="search"
             placeholder="Enter a city.."
             required
+            id="search-bar"
           />
-          <input class="search-button" type="submit" value="Search" />
+          <input
+            class="search-button"
+            type="submit"
+            value="Search"
+            id="search-button"
+          />
         </form>
       </header>
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="current-city">Paris</h1>
+            <h1 class="current-city" id="current-city">Paris</h1>
             <p class="current-details">
               <span id="current-day">Saturday</span>
               <span id="current-hour">12</span>:
@@ -65,5 +71,6 @@
         >
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
